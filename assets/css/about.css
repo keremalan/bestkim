@@ -1,0 +1,83 @@
+.section-badge {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.page-title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.page-title > b {
+    color: #868686;
+    font-weight: 700;
+}
+
+.about-img {
+    width: 100%;
+    margin: 48px 0;
+}
+
+.about-container {
+    position: relative;
+}
+
+.about-history {
+    padding: 30px 32px;
+    max-width: 350px;
+    min-width: 350px;
+    background-color: white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.about-p {
+    padding-right: 20dvw;
+    font-size: 24px;
+}
+
+.about-six-key {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 80px 0;
+}
+
+.six-key-box {
+    width: 192px;
+    height: 146px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.skb-0 {
+    background-color: #0046FF;
+}
+
+.skb-1 {
+    background-color: #366CFB;
+}
+
+.skb-2 {
+    background-color: #602CD0;
+}
+
+.skb-3 {
+    background-color: #854FF8;
+}
+
+.skb-4 {
+    background-color: #FF8B03;
+}
+
+.skb-5 {
+    background-color: #FFA53B;
+}

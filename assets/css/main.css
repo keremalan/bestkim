@@ -43,8 +43,8 @@ header {
 
 .welcome-box {
     position: absolute;
-    top: 32dvh;
-    right: 8%;
+    top: 38dvh;
+    right: 16dvw;
     background-color: none;
 }
 
@@ -178,24 +178,32 @@ header {
 
 .product-category-details {
   position: absolute;
-  bottom: 72px;
+  bottom: 60px;
   left: 64px;
 }
 
 .product-category-icon {
-  margin-bottom: 24px;
+  margin-bottom: 16px;
+  height: 72px;
+  width: 72px;
+}
+
+.category-action-button > span {
+  margin-left: 10px;
+  font-size: 22px;
 }
 
 .product-category-title {
-  font-size: 54px;
+  font-size: 48px;
   color: white;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+  font-weight: 600;
 }
 
 .category-action-button {
-  padding: 20px 48px;
-  font-size: 32px;
-  border-radius: 300px;
+  font-size: 20px;
+  font-weight: 200;
+  color: white;
 }
 
 .categories-right-arrow, .categories-left-arrow {
@@ -513,6 +521,10 @@ header {
 .reference-company-user-company-name {
   font-size: 16px;
   opacity: 0.3;
+}
+
+section {
+  padding: 128px 8%;
 }
 
 footer {

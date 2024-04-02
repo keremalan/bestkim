@@ -1,0 +1,56 @@
+.page-title {
+    margin-top: 8px;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.page-title > strong {
+    color: #868686;
+    font-weight: 700;
+}
+
+.product-categories-cover {
+    max-width: 100%;
+}
+
+.product-categories-list {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.product-categories > .page-title {
+    margin-bottom: 36px;
+}
+
+.product-categories-list-item {
+    position: relative;
+}
+
+.product-categories-link {
+    display: block;
+    position: relative;
+    flex: 1;
+    color: white;
+    margin-bottom: 14px;
+}
+
+.product-categories-see-more {
+    color: white;
+    font-weight: 200;
+}
+
+.product-categories-title {
+    color: white;
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 4px;
+}
+
+
+.product-categories-detail {
+    position: absolute;   
+    left: 36px;
+    bottom: 48px;
+    color: white;
+}
