@@ -14,10 +14,10 @@
 }
 
 .project-list {
-    margin-top: 36px;
+    margin-top: 24px;
     display: flex;
-    flex-direction: column;
-    row-gap: 16px;
+    flex-direction: row;
+    column-gap: 24px;
 }
 
 .project-list-item-link {
@@ -36,6 +36,7 @@
 }
 
 .project-list-box {
+    flex: 1;
     top: 28px;
     left: 32px;
     color: white;
@@ -44,4 +45,9 @@
 
 .project-cover {
     width: 100%;
+    min-height: 240px;
+}
+
+.smt-24 {
+    margin-top: 36px;
 }

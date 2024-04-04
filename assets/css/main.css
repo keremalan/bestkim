@@ -36,6 +36,10 @@ header {
     border-radius: 30px;
 }
 
+.welcome {
+  padding: 8px 0;
+}
+
 .welcome-bg {
     position: relative;
     width: 100%;
@@ -43,7 +47,7 @@ header {
 
 .welcome-box {
     position: absolute;
-    top: 38dvh;
+    top: 32dvh;
     right: 16dvw;
     background-color: none;
 }

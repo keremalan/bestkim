@@ -111,13 +111,14 @@
 }
 
 .blog-post-details-small-box {
-    padding-left: 120px;
+    padding-left: 80px;
     padding-top: 70px;
+    margin-top: 80px;
 }
 
 .blog-post-extra-img {
-    width: 38%;
-    margin-top: 50px;
+    max-width: 30%;
+    margin-top: 16px;
 }
 
 .mt-16 {
